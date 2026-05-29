@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>aprendendo Java Script</title>
     <style>
-        body{
+        body {
             text-align: center;
         }
     </style>
@@ -14,23 +14,24 @@
 
 <body>
     <h1>estou aprendendo <b>JS</b>!</h1>
-     
-     <p id="12"></p>
-     <p>Odair Tuco</p>
-     <p>
-     <script>
-        var nome = window.prompt('olá Qual é o seu nome?')
-        window.alert('á sim,  ' + nome +' é um prazer te conhecer :) !')
-        
-    
-      
-        document.write('ola escrito com o <u><b>document.write</b></u>')
-       
-      </script>  
-     </p>   
-   
+
+    <p id="12"></p>
+    <p>Odair Tuco</p>
+    <p>
+        <script>
+            var nome = window.prompt('Olá! Qual é o seu nome?')
+            var idade = window.prompt('Qual a sua idade?')
+
+            if (idade < 10) {
+                window.alert('Você não tem idade suficiente pra esse site!')
+            } else {
+                window.alert('É um prazer te conhecer, ' + nome + ' :) !')
+            }
+
+            document.write('Olá, escrito com o <u><b>document.write</b></u>')
+        </script>
+    </p>
+
 </body>
-
-
 
 </html>
